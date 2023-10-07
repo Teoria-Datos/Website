@@ -1,0 +1,22 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary);
+  width: 100%;
+  box-sizing: border-box;
+  font-family: Calibri, Candara, Arial, sans-serif;
+}
+
+footer a {
+  height: 28px;
+  margin: 6px 4px;
+  border-radius: 50%;
+  width: auto;
+  overflow: hidden;
+}
+
+footer a img {
+  object-fit: cover;
+  height: 100%;
+}
