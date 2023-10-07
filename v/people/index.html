@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Teoría y Datos</title>
+    <meta name="description" content="A research group specialized on Theoretical Computer Science which includes Database Theory, Algorithmics, Computational Complexity, Logic and many more." />
+    <link media="screen" rel="icon" type="image/png" href="/assets/icons/TD_circle_16x16.png" sizes="16x16">
+    <link media="screen" rel="icon" type="image/png" href="/assets/icons/TD_circle_32x32.png" sizes="32x32">
+    <link media="screen" rel="icon" type="image/png" href="/assets/icons/TD_circle_48x48.png" sizes="48x48">
+    <link media="screen" rel="stylesheet preload" as="style" href="/style/index.css">
+    <link media="screen" rel="stylesheet preload" as="style" href="/style/header.css">
+    <link media="screen" rel="stylesheet preload" as="style" href="/style/footer.css">
+    <link media="screen" rel="stylesheet preload" as="style" href="/style/queries.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+      $(function () {
+        var includes = $('[data-include]')
+        $.each(includes, function () {
+          var file = '/v/' + $(this).data('include') + '.html'
+          $(this).load(file)
+        })
+      })
+      </script>
+  </head>
+  <body>
+    <div data-include="header"></div>
+    <main>
+      <div data-include="people"></div>
+    </main>
+    <div data-include="footer"></div>
+  </body>
+</html>
