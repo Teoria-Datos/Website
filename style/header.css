@@ -1,13 +1,4 @@
-:root {
-  --primary: #054279;
-  --secondary: #44a3fa;
-  --background: #ecf7ff;
-  --accent: #f7a62d;
-}
 
-iframe[seamless] {
-  border: none;
-}
 
 header {
   width: 100%;
@@ -49,7 +40,7 @@ header .headerInfo {
 }
 
 .headerText h1 {
-  font-family: "Brush Script MT", cursive;
+  font-family: Calibri, Candara, Arial, sans-serif;
   font-style: normal;
   font-variant: normal;
   line-height: 26.4px;
@@ -74,7 +65,7 @@ header .headerInfo {
 
 header .menu {
   width: 100%;
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(3, 1fr);
   background-color: var(--secondary);
   font-family: Calibri, Candara, Arial, sans-serif;

@@ -1,0 +1,134 @@
+:root {
+  --primary: #054279;
+  --secondary: #44a3fa;
+  --background: #ecf7ff;
+  --accent: #f7a62d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+html body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 100%;
+}
+
+html body main {
+  z-index: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto 0px;
+  font-family: Calibri, Candara, Arial, sans-serif;
+}
+
+main h1 {
+  margin: 15px 45px 8px 45px;
+  font-size: 40px;
+  color: var(--primary);
+}
+
+main .sectionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+main p {
+  font-size: large;
+  text-align: justify;
+}
+
+.sectionContainer section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 20px;
+  flex: 2;
+}
+
+section h2 {
+  color: var(--primary);
+  font-style: italic;
+}
+
+section #dataUbicacion {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+}
+
+#dataUbicacion .datoUbicacion:first-child {
+  margin-bottom: 15px;
+}
+
+#dataUbicacion .datoUbicacion {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#dataUbicacion .datoUbicacion b {
+  color: var(--primary);
+}
+
+.datoUbicacion #logoSiresa {
+  height: 85px;
+  width: auto;
+  margin: 20px 0px;
+}
+
+section iframe {
+  width: 300px;
+  height: 250px;
+  border: 0px;
+  margin: 20px 0px;
+}
+
+.sectionContainer section #bienvenida{
+  display: flex;
+  align-items: flex-start;
+}
+
+.sectionContainer section #indexCard {
+  margin: 10px;
+  width: 240px;
+}
+
+#indexCard img {
+  height: auto;
+  width: 240px;
+}
+
+#indexCard p {
+  text-align: center;
+  margin: 5px;
+}
+
+.sectionContainer #examenesCard {
+  max-width: 450px;
+  flex: 1;
+}
+
+.sectionContainer #examenesCard h2 {
+  margin-bottom: 20px;
+}
+
+#examenesCard img {
+  height: 250px;
+  width: auto;
+  margin: 20px 0px;
+}
