@@ -34,10 +34,27 @@ html body main {
   font-family: Calibri, Candara, Arial, sans-serif;
 }
 
-main h1 {
-  margin: 15px 45px 8px 45px;
+main section {
+  margin: 1vh 15vw;
+}
+
+main section h1 {
+  margin: 15px 45px 15px 45px;
   font-size: 40px;
   color: var(--primary);
+}
+
+main section a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+main section a:hover {
+  color: var(--accent);
+}
+
+main section a:visited {
+  color: var(--secondary);
 }
 
 section div {
@@ -46,6 +63,17 @@ section div {
   gap: 20px;
   grid-template-columns: 1fr;
   width: 100%;
+}
+
+section ul {
+  list-style-type: none;
+  font-size: large;
+  margin: 5px;
+  padding: 0;
+}
+
+section ul li {
+  margin: 2px;
 }
 
 section div span {
