@@ -30,7 +30,7 @@ html body main {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  margin: 3vh 0px auto 0px;
+  margin: 1vh 0px auto 0px;
   font-family: Calibri, Candara, Arial, sans-serif;
 }
 
@@ -39,7 +39,7 @@ main section {
 }
 
 main section h1 {
-  margin: 15px 45px 15px 45px;
+  margin: 10px 45px 15px 45px;
   font-size: 40px;
   color: var(--primary);
 }
@@ -118,11 +118,11 @@ div span img {
 main p {
   font-size: large;
   text-align: justify;
-  margin: 4px;
+  margin: 8px;
 }
 
 section h2 {
-  margin: 15px 45px 8px 45px;
+  margin: 12px 45px 9px 45px;
   color: var(--primary);
   font-style: italic;
   font-size: 30px;
