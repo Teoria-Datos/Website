@@ -29,7 +29,7 @@ html body main {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: start;
   margin: auto 0px;
   font-family: Calibri, Candara, Arial, sans-serif;
 }
@@ -99,7 +99,11 @@ div span a {
   font-size: 18px;
   margin: 3px;
   text-decoration: none;
-  color: black;
+  color: var(--primary);
+}
+
+div span a:hover {
+  color: var(--accent);
 }
 
 div span img {
@@ -110,6 +114,7 @@ div span img {
 main p {
   font-size: large;
   text-align: justify;
+  margin: 4px;
 }
 
 section h2 {
