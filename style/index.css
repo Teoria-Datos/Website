@@ -29,8 +29,8 @@ html body main {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: start;
-  margin: auto 0px;
+  align-items: center;
+  margin: 3vh 0px auto 0px;
   font-family: Calibri, Candara, Arial, sans-serif;
 }
 
@@ -44,16 +44,16 @@ main section h1 {
   color: var(--primary);
 }
 
-main section a {
+main section p a {
   color: var(--primary);
   text-decoration: none;
 }
 
-main section a:hover {
+main section p a:hover {
   color: var(--accent);
 }
 
-main section a:visited {
+main section p a:visited {
   color: var(--secondary);
 }
 
@@ -92,7 +92,7 @@ div span h3 {
   margin: 5px;
 }
 
-div span a {
+section div span a {
   font-family: Calibri, Candara, Arial, sans-serif;
   font-style: normal;
   font-variant: normal;
@@ -102,8 +102,12 @@ div span a {
   color: var(--primary);
 }
 
-div span a:hover {
+section div span a:hover {
   color: var(--accent);
+}
+
+section div span a:visited {
+  color: var(--secondary);
 }
 
 div span img {
