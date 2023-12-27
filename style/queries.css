@@ -31,10 +31,13 @@
 		grid-template-columns: repeat(3, 1fr);
 	}
 
-
   .headerText h1 {
     font-size: 34px;
   }
+
+	main section {
+		margin: 1vh 12vw;
+	}
 }
 
 @media screen and (min-width: 950px) {

@@ -35,7 +35,7 @@ html body main {
 }
 
 main section {
-  margin: 1vh 15vw;
+  margin: 1vh 5vw;
 }
 
 main section h1 {
@@ -77,11 +77,11 @@ section ul li {
 }
 
 section ul.publications {
-  margin: 4vw;
+  margin: 2vh 3vw;
 }
 
 section ul.publications li {
-  margin: 5px;
+  margin: 8px;
   text-align:left
 }
 
