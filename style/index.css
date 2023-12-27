@@ -76,6 +76,16 @@ section ul li {
   margin: 2px;
 }
 
+section ul.publications {
+  margin: 4vw;
+}
+
+section ul.publications li {
+  margin: 5px;
+  text-align:left
+}
+
+
 section div span {
   display: flex;
   flex-direction: column;
