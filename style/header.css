@@ -63,21 +63,20 @@ header div.menu {
 
 
 header div.menu div {
-  display: inline-block;
+  width: 100vw;
+  display: flex;
   flex: 1;
 }
 
 div.menu div a {
+  flex: 1;
   font-size: large;
+  width: max-content;
   padding: 3px;
   border-right: 1px solid var(--primary);
   border-top: 1px solid var(--primary);
   color: var(--background);
   text-decoration: none;
-}
-
-div.menu div .first-a  {
-  border-left: 1px solid var(--primary);
 }
 
 div.menu a:hover {background-color: var(--accent)}

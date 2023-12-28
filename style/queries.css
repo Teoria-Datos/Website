@@ -12,19 +12,37 @@
 	}
 }
 
-@media screen and (min-width: 550px) {  
-  header div.menu {
+@media screen and (min-width: 650px) {  }
+
+@media screen and (min-width: 720px) {
+
+	header div.menu {
 		flex-direction: row;
   }
   
-  .menu a {
-		padding: 5px;
+	header div.menu div {
+		width: fit-content;
+		display: flex;
+		flex: 1;
+	}
+
+	header div.menu div.first {
+		flex-direction: row-reverse;
+	}
+
+	div.menu div a.first-a  {
+		border-left: 1px solid var(--primary);
+	}
+
+  header div.menu div a {
+		min-width: 64px;
+		width: fit-content;
+		display: inline-block;
+		flex: none;
 		border-top: none;
+		padding: 5px 8px;
   }
 
-}
-
-@media screen and (min-width: 720px) {
 	section div {
 		grid-template-columns: repeat(3, 1fr);
 	}
