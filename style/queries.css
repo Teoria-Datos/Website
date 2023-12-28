@@ -14,7 +14,7 @@
 
 @media screen and (min-width: 550px) {  
   header .menu {
-		display: flex;
+		flex-direction: row;
 		align-items: center;
 		justify-content: center;
   }

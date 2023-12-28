@@ -50,16 +50,21 @@ header .headerInfo {
 }
 
 
-header .menu {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+header div.menu {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
   background-color: var(--secondary);
   font-family: Calibri, Candara, Arial, sans-serif;
   border-bottom: 1px solid var(--primary);
 }
 
-.menu a {
+
+header div.menu div {
+  flex: 1;
+}
+
+div.menu div a {
   font-size: large;
   padding: 3px;
   border-right: 1px solid var(--primary);
@@ -68,8 +73,8 @@ header .menu {
   text-decoration: none;
 }
 
-.menu .first-a  {
+div.menu div .first-a  {
   border-left: 1px solid var(--primary);
 }
 
-.menu a:hover {background-color: var(--accent)}
+div.menu a:hover {background-color: var(--accent)}
