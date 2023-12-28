@@ -39,13 +39,21 @@
 		flex-direction: row;
 	}
 
+	main section img {
+		width: 65vw;
+	}
+
 }
 
 @media screen and (min-width: 950px) {
-
+	main section img {
+		width: 55vw;
+	}
 }
 
 
 @media screen and (min-width: 1200px) {
-
+	main section img {
+		width: 50vw;
+	}
 }

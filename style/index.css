@@ -38,6 +38,13 @@ main section {
   margin: 1vh 3vw;
 }
 
+main section img {
+  border-radius: 8px;
+  width: 80vw;
+  height: auto;
+  margin: 3vh 4vw;
+}
+
 main div {
   display: flex;
   flex-direction: column;
@@ -90,8 +97,8 @@ section ul.publications {
 }
 
 section ul.publications li {
-  margin: 8px;
-  text-align:left
+  margin: 10px;
+  text-align: left;
 }
 
 
