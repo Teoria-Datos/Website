@@ -48,6 +48,7 @@ main section img.classroom {
 main div {
   display: flex;
   flex-direction: column;
+  width: 100vw;
 }
 
 main div section {
@@ -110,7 +111,7 @@ section div span {
   margin: auto 8px;
 }
 
-div span h3 {
+section div span h3 {
   font-family: Calibri, Candara, Arial, sans-serif;
   font-style: normal;
   font-variant: normal;
