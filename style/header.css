@@ -54,6 +54,8 @@ header div.menu {
   width: 100vw;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: var(--secondary);
   font-family: Calibri, Candara, Arial, sans-serif;
   border-bottom: 1px solid var(--primary);
@@ -61,6 +63,7 @@ header div.menu {
 
 
 header div.menu div {
+  display: inline-block;
   flex: 1;
 }
 

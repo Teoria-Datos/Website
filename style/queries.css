@@ -13,10 +13,8 @@
 }
 
 @media screen and (min-width: 550px) {  
-  header .menu {
+  header div.menu {
 		flex-direction: row;
-		align-items: center;
-		justify-content: center;
   }
   
   .menu a {
