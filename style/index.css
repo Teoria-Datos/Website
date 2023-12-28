@@ -48,7 +48,7 @@ main section img.classroom {
 main div {
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: 85vw;
 }
 
 main div section {
