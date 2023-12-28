@@ -137,8 +137,8 @@ section div span a:visited {
 }
 
 div span img {
-  width: 250px;
-  height: 300px;
+  max-width: 55vw;
+  height: auto;
 }
 
 main p {
