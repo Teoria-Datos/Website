@@ -35,9 +35,10 @@
     font-size: 34px;
   }
 
-	main section {
-		margin: 1vh 12vw;
+	main div {
+		flex-direction: row;
 	}
+
 }
 
 @media screen and (min-width: 950px) {

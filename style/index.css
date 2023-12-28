@@ -35,7 +35,16 @@ html body main {
 }
 
 main section {
-  margin: 1vh 5vw;
+  margin: 1vh 3vw;
+}
+
+main div {
+  display: flex;
+  flex-direction: column;
+}
+
+main div section {
+  flex: 1;
 }
 
 main section h1 {
@@ -132,7 +141,7 @@ main p {
 }
 
 section h2 {
-  margin: 12px 45px 9px 45px;
+  margin: 12px 2vw 9px 2vw;
   color: var(--primary);
   font-style: italic;
   font-size: 30px;
