@@ -38,7 +38,7 @@ main section {
   margin: 1vh 3vw;
 }
 
-main section img {
+main section img.classroom {
   border-radius: 8px;
   width: 80vw;
   height: auto;
