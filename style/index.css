@@ -93,11 +93,11 @@ section ul li {
   margin: 2px;
 }
 
-section ul.publications {
+section ul.left {
   margin: 2vh 3vw;
 }
 
-section ul.publications li {
+section ul.left li {
   margin: 10px;
   text-align: left;
 }
