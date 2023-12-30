@@ -162,7 +162,13 @@ section div span {
   margin: auto 8px;
 }
 
+section div span div {
+  display: flex;
+  flex-direction: row;
+}
+
 section div span h3 {
+  flex: 1;
   font-family: Calibri, Candara, Arial, sans-serif;
   font-style: normal;
   font-variant: normal;
@@ -171,6 +177,7 @@ section div span h3 {
 }
 
 section div span a {
+  flex: 1;
   font-family: Calibri, Candara, Arial, sans-serif;
   font-style: normal;
   font-variant: normal;
@@ -189,8 +196,15 @@ section div span a:visited {
 }
 
 div span img {
+  flex: 1;
   max-width: 90%;
   height: auto;
+}
+
+div span p {
+  flex: 1;
+  font-size: 15px;
+  margin: 3px auto;
 }
 
 section h2 {
