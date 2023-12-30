@@ -165,6 +165,8 @@ section div span {
 section div span div {
   display: flex;
   flex-direction: row;
+  margin: 0px auto;
+  width: 90%;
 }
 
 section div span h3 {
@@ -173,7 +175,7 @@ section div span h3 {
   font-style: normal;
   font-variant: normal;
   font-size: 22px;
-  margin: 5px;
+  margin: 5px auto;
 }
 
 section div span a {
@@ -182,7 +184,7 @@ section div span a {
   font-style: normal;
   font-variant: normal;
   font-size: 18px;
-  margin: 3px;
+  margin: 3px auto;
   text-decoration: none;
   color: var(--primary);
 }

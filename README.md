@@ -14,7 +14,10 @@ A research group specialized on Theoretical Computer Science which includes Data
   <img src="/assets/photos/NAME.png">
   <h3>NAME</h3>
   <a href="mailto:MAIL">MAIL</a>
-  <a href="WEB">Website</a>
+  <div>
+    <a href="WEB">Website</a>
+    <a href="DBPL">DBPL</a>
+  </div>
   <p>INTEREST</p>
 </span>
 ```
