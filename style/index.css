@@ -120,8 +120,6 @@ section ul li {
 }
 
 section ul.bullet {
-  list-style-type: circle;
-  list-style-position: inside;
   margin: 2vh 3vw;
 }
 
@@ -131,6 +129,9 @@ section ul.bullet li {
 
 section ul.bullet li::before {
   content: "\2022";
+  width: 1em;
+  font-weight: bold;
+  display: inline-block;
   color: var(--primary);
 }
 
