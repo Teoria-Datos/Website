@@ -163,10 +163,10 @@ section div span {
 }
 
 section div span div {
-  display: flex;
-  flex-direction: row;
+  flex: 1;
   margin: 0px auto;
-  width: 90%;
+  align-items: center;
+  justify-items: center;
   gap: 0px;
 }
 
@@ -188,6 +188,11 @@ section div span a {
   margin: 3px auto;
   text-decoration: none;
   color: var(--primary);
+}
+
+section div span div a {
+  flex: none;
+  width: 30px;
 }
 
 section div span a:hover {
