@@ -45,13 +45,13 @@ main section img.classroom {
   margin: 3vh 4vw;
 }
 
-main div {
+main div.areas {
   display: flex;
   flex-direction: column;
   width: 85vw;
 }
 
-main div section {
+main div.areas section {
   flex: 1;
 }
 
@@ -79,7 +79,7 @@ section div {
   justify-items: center;
   gap: 20px;
   grid-template-columns: 1fr;
-  width: 100%;
+  width: 100vw;
 }
 
 section ul {
