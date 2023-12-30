@@ -53,7 +53,7 @@
 	}
 
   .headerText h1 {
-    font-size: 34px;
+    font-size: 48px;
   }
 
 	main div.areas {
@@ -64,11 +64,19 @@
 		width: 65vw;
 	}
 
+	main section img.logo {
+		width: 55vw;
+	}
+
 }
 
 @media screen and (min-width: 950px) {
 	main section img.classroom {
 		width: 55vw;
+	}
+
+	main section img.logo {
+		width: 45vw;
 	}
 }
 
@@ -76,5 +84,9 @@
 @media screen and (min-width: 1200px) {
 	main section img.classroom {
 		width: 50vw;
+	}
+
+	main section img.logo {
+		width: 30vw;
 	}
 }

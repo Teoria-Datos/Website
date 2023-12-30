@@ -17,8 +17,8 @@ header .headerInfo {
 
 .headerInfo .logo {
   margin: 5px;
-  height: 65px;
-  width: 65px;
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
   overflow: hidden;
   display: none;

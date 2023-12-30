@@ -46,6 +46,13 @@ main section img.classroom {
   margin: 3vh 4vw;
 }
 
+main section img.logo {
+  border-radius: 50%;
+  width: 70vw;
+  height: auto;
+  margin: 3vh 4vw;
+}
+
 main div.areas {
   display: flex;
   flex-direction: column;
@@ -151,7 +158,8 @@ div span img {
 main p {
   font-size: large;
   text-align: justify;
-  margin: 8px;
+  margin: 8px auto;
+  max-width: 80%;
 }
 
 section h2 {
