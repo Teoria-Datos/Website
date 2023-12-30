@@ -108,19 +108,23 @@ section div {
 
 section ul {
   list-style-type: none;
-  font-size: large;
   padding: 0;
   margin: 3vh 5vw;
 }
 
-section ul p {
-  text-align: left;
+section ul li {
   max-width: 78%;
   padding: 10px;
   margin: auto;
+  text-align: justify;
+}
+
+main ul li strong {
+  color: var(--primary);
 }
 
 section ul.bullet {
+  font-size: large;
   margin: 2vh 3vw;
 }
 
