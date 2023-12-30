@@ -165,8 +165,9 @@ section div span {
 section div span div {
   flex: 1;
   margin: 0px auto;
-  align-items: center;
-  justify-items: center;
+  display: grid;
+  width: 160px;
+  grid-template-columns: repeat(2, 1fr);
   gap: 0px;
 }
 
@@ -192,7 +193,7 @@ section div span a {
 
 section div span div a {
   flex: none;
-  width: 30px;
+  width: 80px;
 }
 
 section div span a:hover {
