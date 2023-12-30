@@ -16,7 +16,7 @@ header .headerInfo {
 }
 
 .headerInfo .logo {
-  margin: 5px;
+  margin: auto 5px;
   height: 80px;
   width: 80px;
   border-radius: 50%;
