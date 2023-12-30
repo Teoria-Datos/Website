@@ -73,6 +73,17 @@ main section h1 {
   color: var(--primary);
 }
 
+main p {
+  font-size: large;
+  text-align: justify;
+  margin: 8px auto;
+  max-width: 80%;
+}
+
+main p strong {
+  color: var(--primary);
+}
+
 main section p a {
   color: var(--primary);
   text-decoration: none;
@@ -98,21 +109,27 @@ section div {
 section ul {
   list-style-type: none;
   font-size: large;
-  margin: 5px;
   padding: 0;
+  margin: 5vh 6vw;
 }
 
 section ul li {
-  margin: 2px;
+  margin: 12px;
+  text-align: left;
 }
 
-section ul.left {
+section ul.bullet {
+  list-style-type: circle;
+  list-style-position: inside;
   margin: 2vh 3vw;
 }
 
-section ul.left li {
-  padding: 12px;
-  text-align: left;
+section ul.bullet li {
+  padding: 10px;
+}
+
+section ul.bullet li::before {
+  color: var(--primary);
 }
 
 
@@ -153,13 +170,6 @@ section div span a:visited {
 div span img {
   max-width: 55vw;
   height: auto;
-}
-
-main p {
-  font-size: large;
-  text-align: justify;
-  margin: 8px auto;
-  max-width: 80%;
 }
 
 section h2 {
