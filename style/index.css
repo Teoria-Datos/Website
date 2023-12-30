@@ -80,6 +80,7 @@ main section p a:visited {
 }
 
 section div {
+  margin: 0 auto;
   display: grid;
   justify-items: center;
   gap: 20px;
