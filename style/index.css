@@ -110,6 +110,7 @@ section ul {
   list-style-type: none;
   padding: 0;
   margin: 3vh 5vw;
+  font-size: large;
 }
 
 section ul li {
@@ -124,7 +125,6 @@ main ul li strong {
 }
 
 section ul.bullet {
-  font-size: large;
   margin: 2vh 3vw;
 }
 
