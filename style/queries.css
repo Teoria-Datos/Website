@@ -56,11 +56,6 @@
 		grid-template-columns: repeat(3, 1fr);
 	}
 
-	div span img {
-		max-width: 25vw;
-		height: auto;
-	}
-
   .headerText h1 {
     font-size: 48px;
   }
