@@ -8,11 +8,19 @@
 	}
 
 	header .headerInfo {
-			grid-template-columns: 1fr 3fr 1fr;
+			grid-template-columns: 1fr 7fr 1fr;
+	}
+
+	.headerText h1 {
+		font-size: 30px;
 	}
 }
 
-@media screen and (min-width: 650px) {  }
+@media screen and (min-width: 650px) { 
+	.headerText h1 {
+		font-size: 38px;
+	}
+}
 
 @media screen and (min-width: 720px) {
 
