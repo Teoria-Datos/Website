@@ -77,7 +77,7 @@ main p {
   font-size: large;
   text-align: justify;
   margin: 8px auto;
-  max-width: 80%;
+  max-width: 84%;
 }
 
 main p strong {
@@ -116,6 +116,7 @@ section ul {
 section ul li {
   margin: 12px;
   text-align: left;
+  max-width: 78%;
 }
 
 section ul.bullet {
