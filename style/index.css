@@ -124,7 +124,8 @@ section ul.bullet {
 }
 
 section ul.bullet li {
-  padding: 10px;
+  padding: 6px;
+  margin: auto;
 }
 
 section ul.bullet li::before {
