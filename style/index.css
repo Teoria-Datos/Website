@@ -51,6 +51,10 @@ main div.areas {
   width: 85vw;
 }
 
+main div {
+  max-width: 98vw;
+}
+
 main div.areas section {
   flex: 1;
 }
