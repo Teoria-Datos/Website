@@ -16,7 +16,7 @@
 	}
 }
 
-@media screen and (min-width: 650px) { 
+@media screen and (min-width: 600px) { 
 	.headerText h1 {
 		font-size: 38px;
 	}
@@ -36,7 +36,7 @@
 
 	header div.menu div.first {
 		flex-direction: row-reverse;
-		flex: 87;
+		flex: 93;
 	}
 
 	div.menu div a.first-a  {
