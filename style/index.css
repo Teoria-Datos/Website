@@ -97,6 +97,19 @@ main section p a:visited {
   color: var(--secondary);
 }
 
+main section ul li a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+main section ul li a:hover {
+  color: var(--accent);
+}
+
+main section ul li a:visited {
+  color: var(--secondary);
+}
+
 section div {
   margin: 0 auto;
   display: grid;
