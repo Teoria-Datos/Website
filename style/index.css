@@ -114,9 +114,10 @@ section ul {
 }
 
 section ul li {
-  margin: 12px;
   text-align: left;
   max-width: 78%;
+  padding: 10px;
+  margin: auto;
 }
 
 section ul.bullet {
@@ -125,7 +126,6 @@ section ul.bullet {
 
 section ul.bullet li {
   padding: 6px;
-  margin: auto;
 }
 
 section ul.bullet li::before {
