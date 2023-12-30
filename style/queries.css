@@ -31,11 +31,12 @@
 	header div.menu div {
 		width: fit-content;
 		display: flex;
-		flex: 1;
+		flex: 100;
 	}
 
 	header div.menu div.first {
 		flex-direction: row-reverse;
+		flex: 87;
 	}
 
 	div.menu div a.first-a  {
