@@ -65,7 +65,7 @@
 	}
 
 	main section img.logo {
-		width: 45vw;
+		width: 42vw;
 	}
 
 }
@@ -76,17 +76,17 @@
 	}
 
 	main section img.logo {
-		width: 30vw;
+		width: 27vw;
 	}
 }
 
 
 @media screen and (min-width: 1200px) {
 	main section img.classroom {
-		width: 50vw;
+		width: 45vw;
 	}
 
 	main section img.logo {
-		width: 20vw;
+		width: 18vw;
 	}
 }
