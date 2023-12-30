@@ -129,6 +129,7 @@ section ul.bullet li {
 }
 
 section ul.bullet li::before {
+  content: "\2022";
   color: var(--primary);
 }
 
