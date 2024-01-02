@@ -65,6 +65,7 @@ main div {
 
 main div.areas section {
   flex: 1;
+  margin: 1% 0%;
 }
 
 main section h1 {
@@ -114,7 +115,7 @@ section div {
   margin: 0 auto;
   display: grid;
   justify-items: center;
-  gap: 20px;
+  gap: 20px 0px;
   grid-template-columns: 1fr;
   width: 100%;
 }
@@ -159,7 +160,7 @@ section div span {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  margin: auto 8px;
+  margin: auto;
 }
 
 section div span div {

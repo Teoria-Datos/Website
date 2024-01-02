@@ -23,9 +23,30 @@
 	}
 }
 
-@media screen and (min-width: 600px) { }
+@media screen and (min-width: 700px) {
+	main section img.classroom {
+		width: 65vw;
+	}
 
-@media screen and (min-width: 760px) {
+	main section img.logo {
+		width: 42vw;
+	}
+}
+
+@media screen and (min-width: 790px) {
+	main div.areas {
+		flex-direction: row;
+	}
+}
+
+@media screen and (min-width: 860px) {
+	section div {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.headerText h1 {
+    font-size: 48px;
+  }
 
 	header div.menu {
 		flex-direction: row;
@@ -54,26 +75,6 @@
 		border-top: none;
 		padding: 5px 8px;
   }
-
-	section div {
-		grid-template-columns: repeat(3, 1fr);
-	}
-
-  .headerText h1 {
-    font-size: 48px;
-  }
-
-	main div.areas {
-		flex-direction: row;
-	}
-
-	main section img.classroom {
-		width: 65vw;
-	}
-
-	main section img.logo {
-		width: 42vw;
-	}
 
 }
 
