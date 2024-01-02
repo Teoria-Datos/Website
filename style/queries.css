@@ -12,15 +12,11 @@
 	}
 
 	.headerText h1 {
-		font-size: 30px;
+		font-size: 40px;
 	}
 }
 
-@media screen and (min-width: 600px) { 
-	.headerText h1 {
-		font-size: 38px;
-	}
-}
+@media screen and (min-width: 600px) { }
 
 @media screen and (min-width: 720px) {
 
