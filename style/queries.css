@@ -33,13 +33,13 @@
 	}
 }
 
-@media screen and (min-width: 790px) {
+@media screen and (min-width: 790px) { }
+
+@media screen and (min-width: 860px) {
 	main div.areas {
 		flex-direction: row;
 	}
-}
 
-@media screen and (min-width: 860px) {
 	section div {
 		grid-template-columns: repeat(3, 1fr);
 	}
@@ -60,7 +60,7 @@
 
 	header div.menu div.first {
 		flex-direction: row-reverse;
-		flex: 117.4;
+		flex: 106.8;
 	}
 
 	div.menu div a.first-a  {
@@ -68,7 +68,7 @@
 	}
 
   header div.menu div a {
-		min-width: 70px;
+		min-width: 86px;
 		width: fit-content;
 		display: inline-block;
 		flex: none;
