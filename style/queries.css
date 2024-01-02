@@ -1,8 +1,15 @@
 @media screen and (min-width: 440px) {
-
+	div.menu div a {
+		font-size: medium;
+	}
 }
 
 @media screen and (min-width: 500px) {
+	div.menu div a {
+		font-size: large;
+		padding: 3px;
+	}
+
 	.headerInfo .logo {
 		display: inline;
 	}
@@ -12,13 +19,13 @@
 	}
 
 	.headerText h1 {
-		font-size: 40px;
+		font-size: 42px;
 	}
 }
 
 @media screen and (min-width: 600px) { }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 760px) {
 
 	header div.menu {
 		flex-direction: row;
@@ -32,7 +39,7 @@
 
 	header div.menu div.first {
 		flex-direction: row-reverse;
-		flex: 93;
+		flex: 117.4;
 	}
 
 	div.menu div a.first-a  {
@@ -40,7 +47,7 @@
 	}
 
   header div.menu div a {
-		min-width: 64px;
+		min-width: 70px;
 		width: fit-content;
 		display: inline-block;
 		flex: none;
