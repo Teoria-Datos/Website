@@ -209,6 +209,7 @@ div span img {
   flex: 1;
   max-width: 78%;
   height: auto;
+  justify-self: flex-start;
 }
 
 div span p {
