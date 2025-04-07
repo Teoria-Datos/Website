@@ -208,8 +208,8 @@ section div span a:visited {
 }
 
 div span img {
-  flex: 1;
-  max-width: 78%;
+  flex: 1 1 auto;
+  width: 78%;
   height: auto;
   object-fit: contain;
 }
